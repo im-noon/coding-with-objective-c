@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		856B0F2321B8E41300E29200 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 856B0F2221B8E41300E29200 /* AppDelegate.m */; };
+		856B0F2621B8E41300E29200 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 856B0F2521B8E41300E29200 /* ViewController.m */; };
+		856B0F2821B8E41500E29200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 856B0F2721B8E41500E29200 /* Assets.xcassets */; };
+		856B0F2B21B8E41500E29200 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 856B0F2921B8E41500E29200 /* Main.storyboard */; };
+		856B0F2E21B8E41500E29200 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 856B0F2D21B8E41500E29200 /* main.m */; };
+		856B0F3921B8E41500E29200 /* miniToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 856B0F3821B8E41500E29200 /* miniToolTests.m */; };
+		856B0F4421B8E41500E29200 /* miniToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 856B0F4321B8E41500E29200 /* miniToolUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		856B0F3521B8E41500E29200 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 856B0F1621B8E41200E29200 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 856B0F1D21B8E41300E29200;
+			remoteInfo = miniTool;
+		};
+		856B0F4021B8E41500E29200 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 856B0F1621B8E41200E29200 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 856B0F1D21B8E41300E29200;
+			remoteInfo = miniTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		856B0F1E21B8E41300E29200 /* miniTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = miniTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		856B0F2121B8E41300E29200 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		856B0F2221B8E41300E29200 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		856B0F2421B8E41300E29200 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		856B0F2521B8E41300E29200 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		856B0F2721B8E41500E29200 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		856B0F2A21B8E41500E29200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		856B0F2C21B8E41500E29200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		856B0F2D21B8E41500E29200 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		856B0F2F21B8E41500E29200 /* miniTool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = miniTool.entitlements; sourceTree = "<group>"; };
+		856B0F3421B8E41500E29200 /* miniToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = miniToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		856B0F3821B8E41500E29200 /* miniToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = miniToolTests.m; sourceTree = "<group>"; };
+		856B0F3A21B8E41500E29200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		856B0F3F21B8E41500E29200 /* miniToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = miniToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		856B0F4321B8E41500E29200 /* miniToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = miniToolUITests.m; sourceTree = "<group>"; };
+		856B0F4521B8E41500E29200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		856B0F1B21B8E41300E29200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		856B0F3121B8E41500E29200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		856B0F3C21B8E41500E29200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		856B0F1521B8E41200E29200 = {
+			isa = PBXGroup;
+			children = (
+				856B0F2021B8E41300E29200 /* miniTool */,
+				856B0F3721B8E41500E29200 /* miniToolTests */,
+				856B0F4221B8E41500E29200 /* miniToolUITests */,
+				856B0F1F21B8E41300E29200 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		856B0F1F21B8E41300E29200 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				856B0F1E21B8E41300E29200 /* miniTool.app */,
+				856B0F3421B8E41500E29200 /* miniToolTests.xctest */,
+				856B0F3F21B8E41500E29200 /* miniToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		856B0F2021B8E41300E29200 /* miniTool */ = {
+			isa = PBXGroup;
+			children = (
+				856B0F2121B8E41300E29200 /* AppDelegate.h */,
+				856B0F2221B8E41300E29200 /* AppDelegate.m */,
+				856B0F2421B8E41300E29200 /* ViewController.h */,
+				856B0F2521B8E41300E29200 /* ViewController.m */,
+				856B0F2721B8E41500E29200 /* Assets.xcassets */,
+				856B0F2921B8E41500E29200 /* Main.storyboard */,
+				856B0F2C21B8E41500E29200 /* Info.plist */,
+				856B0F2D21B8E41500E29200 /* main.m */,
+				856B0F2F21B8E41500E29200 /* miniTool.entitlements */,
+			);
+			path = miniTool;
+			sourceTree = "<group>";
+		};
+		856B0F3721B8E41500E29200 /* miniToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				856B0F3821B8E41500E29200 /* miniToolTests.m */,
+				856B0F3A21B8E41500E29200 /* Info.plist */,
+			);
+			path = miniToolTests;
+			sourceTree = "<group>";
+		};
+		856B0F4221B8E41500E29200 /* miniToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				856B0F4321B8E41500E29200 /* miniToolUITests.m */,
+				856B0F4521B8E41500E29200 /* Info.plist */,
+			);
+			path = miniToolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		856B0F1D21B8E41300E29200 /* miniTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 856B0F4821B8E41600E29200 /* Build configuration list for PBXNativeTarget "miniTool" */;
+			buildPhases = (
+				856B0F1A21B8E41300E29200 /* Sources */,
+				856B0F1B21B8E41300E29200 /* Frameworks */,
+				856B0F1C21B8E41300E29200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = miniTool;
+			productName = miniTool;
+			productReference = 856B0F1E21B8E41300E29200 /* miniTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		856B0F3321B8E41500E29200 /* miniToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 856B0F4B21B8E41600E29200 /* Build configuration list for PBXNativeTarget "miniToolTests" */;
+			buildPhases = (
+				856B0F3021B8E41500E29200 /* Sources */,
+				856B0F3121B8E41500E29200 /* Frameworks */,
+				856B0F3221B8E41500E29200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				856B0F3621B8E41500E29200 /* PBXTargetDependency */,
+			);
+			name = miniToolTests;
+			productName = miniToolTests;
+			productReference = 856B0F3421B8E41500E29200 /* miniToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		856B0F3E21B8E41500E29200 /* miniToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 856B0F4E21B8E41600E29200 /* Build configuration list for PBXNativeTarget "miniToolUITests" */;
+			buildPhases = (
+				856B0F3B21B8E41500E29200 /* Sources */,
+				856B0F3C21B8E41500E29200 /* Frameworks */,
+				856B0F3D21B8E41500E29200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				856B0F4121B8E41500E29200 /* PBXTargetDependency */,
+			);
+			name = miniToolUITests;
+			productName = miniToolUITests;
+			productReference = 856B0F3F21B8E41500E29200 /* miniToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		856B0F1621B8E41200E29200 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = vaav;
+				TargetAttributes = {
+					856B0F1D21B8E41300E29200 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					856B0F3321B8E41500E29200 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 856B0F1D21B8E41300E29200;
+					};
+					856B0F3E21B8E41500E29200 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 856B0F1D21B8E41300E29200;
+					};
+				};
+			};
+			buildConfigurationList = 856B0F1921B8E41200E29200 /* Build configuration list for PBXProject "miniTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 856B0F1521B8E41200E29200;
+			productRefGroup = 856B0F1F21B8E41300E29200 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				856B0F1D21B8E41300E29200 /* miniTool */,
+				856B0F3321B8E41500E29200 /* miniToolTests */,
+				856B0F3E21B8E41500E29200 /* miniToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		856B0F1C21B8E41300E29200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				856B0F2821B8E41500E29200 /* Assets.xcassets in Resources */,
+				856B0F2B21B8E41500E29200 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		856B0F3221B8E41500E29200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		856B0F3D21B8E41500E29200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		856B0F1A21B8E41300E29200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				856B0F2621B8E41300E29200 /* ViewController.m in Sources */,
+				856B0F2E21B8E41500E29200 /* main.m in Sources */,
+				856B0F2321B8E41300E29200 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		856B0F3021B8E41500E29200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				856B0F3921B8E41500E29200 /* miniToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		856B0F3B21B8E41500E29200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				856B0F4421B8E41500E29200 /* miniToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		856B0F3621B8E41500E29200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 856B0F1D21B8E41300E29200 /* miniTool */;
+			targetProxy = 856B0F3521B8E41500E29200 /* PBXContainerItemProxy */;
+		};
+		856B0F4121B8E41500E29200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 856B0F1D21B8E41300E29200 /* miniTool */;
+			targetProxy = 856B0F4021B8E41500E29200 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		856B0F2921B8E41500E29200 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				856B0F2A21B8E41500E29200 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		856B0F4621B8E41600E29200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		856B0F4721B8E41600E29200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		856B0F4921B8E41600E29200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = miniTool/miniTool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QQE69LKY8A;
+				INFOPLIST_FILE = miniTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vaav.miniTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		856B0F4A21B8E41600E29200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = miniTool/miniTool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QQE69LKY8A;
+				INFOPLIST_FILE = miniTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vaav.miniTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		856B0F4C21B8E41600E29200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QQE69LKY8A;
+				INFOPLIST_FILE = miniToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vaav.miniToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/miniTool.app/Contents/MacOS/miniTool";
+			};
+			name = Debug;
+		};
+		856B0F4D21B8E41600E29200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QQE69LKY8A;
+				INFOPLIST_FILE = miniToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vaav.miniToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/miniTool.app/Contents/MacOS/miniTool";
+			};
+			name = Release;
+		};
+		856B0F4F21B8E41600E29200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QQE69LKY8A;
+				INFOPLIST_FILE = miniToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vaav.miniToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = miniTool;
+			};
+			name = Debug;
+		};
+		856B0F5021B8E41600E29200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QQE69LKY8A;
+				INFOPLIST_FILE = miniToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vaav.miniToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = miniTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		856B0F1921B8E41200E29200 /* Build configuration list for PBXProject "miniTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				856B0F4621B8E41600E29200 /* Debug */,
+				856B0F4721B8E41600E29200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		856B0F4821B8E41600E29200 /* Build configuration list for PBXNativeTarget "miniTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				856B0F4921B8E41600E29200 /* Debug */,
+				856B0F4A21B8E41600E29200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		856B0F4B21B8E41600E29200 /* Build configuration list for PBXNativeTarget "miniToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				856B0F4C21B8E41600E29200 /* Debug */,
+				856B0F4D21B8E41600E29200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		856B0F4E21B8E41600E29200 /* Build configuration list for PBXNativeTarget "miniToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				856B0F4F21B8E41600E29200 /* Debug */,
+				856B0F5021B8E41600E29200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 856B0F1621B8E41200E29200 /* Project object */;
+}
